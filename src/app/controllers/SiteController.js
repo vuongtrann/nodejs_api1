@@ -5,7 +5,7 @@ class SiteController {
     }
 
     // [GET] /news/....
-                    search(req, res) {
+    search(req, res) {
         res.render('search');
     }
 }
